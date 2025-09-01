@@ -6,3 +6,75 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+/* dark 2 */
+.text-gray{
+    color:#424242;
+}
+/* dark 3 */
+.text-light-gray{
+    color:#727272;
+}
+.bg-light{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 20px 21px 24px 25px;
+    font-weight: 600;
+    font-size: 1.25rem;;
+}
+/* hader style */
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 20px;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* banner related style */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-size: 700;
+
+}
+.banner-image{
+    width: 100%;
+}
+/* responsive media query */
+@media screen and (max-width:576px){
+    .navbar, .nav-link{
+        flex-direction: column;
+        ;
+    }
+    
+}
